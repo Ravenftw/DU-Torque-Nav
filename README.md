@@ -4,7 +4,7 @@
 
 > 🧑‍🚀 **Brand new to this?** This guide assumes you know nothing. Follow [Quick start](#-quick-start-5-minutes) in order.
 
-Best if used with Torque Hud found here: (#https://github.com/Ravenftw/DU-Torque-Hud)
+Best if used with Torque Hud found here: https://github.com/Ravenftw/DU-Torque-Hud
 
 ---
 
