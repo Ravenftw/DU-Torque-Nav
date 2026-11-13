@@ -20,7 +20,6 @@
 10. [🛠️ Troubleshooting](#️-troubleshooting)
 11. [❓ FAQ](#-faq)
 12. [📚 Glossary](#-glossary)
-13. [🔧 Building from source](#-building-from-source)
 
 ---
 
@@ -247,26 +246,7 @@ It only appears when a **second, empty** databank is linked. If it already holds
 | **Autopilot** | The ship flies to the target for you (TorqueHUD does this). |
 | **Engage** | Send the selected location to the autopilot. |
 
----
 
-## 🔧 Building from source
-
-Only needed to change the code. Everyone else uses `release/`.
-
-```
-TorqueNav/
-├── src/        Lua source parts
-├── tools/      build script
-├── tests/      mock-game tests
-├── release/    the finished file to install
-└── build.sh
-```
-
-```bash
-# needs Lua 5.3/5.4 and Python 3
-LUA=/path/to/lua ./build.sh
-LUA=/path/to/lua ./tests/run_tests.sh
-```
 
 ---
 
